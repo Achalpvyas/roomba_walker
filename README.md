@@ -1,5 +1,5 @@
 # Gazebo tutorial
-[![License: BSD](https://opensource.org/licenses/BSD-3-Clause)]
+[![License: BSD](https://opensource.org/licenses/BSD-3-Clause)
 
 # Overview
 Project about Gazebo.
