@@ -1,0 +1,17 @@
+achal@Achal:~/roomba_ws$ cpplint --recursive --extensions=cpp,hpp ~/roomba_ws/src/roomba_walker/
+/home/achal/roomba_ws/src/roomba_walker/include/roomba_walker.hpp:34:  Do not leave a blank line after "private:"  [whitespace/blank_line] [3]
+Done processing /home/achal/roomba_ws/src/roomba_walker/include/roomba_walker.hpp
+Done processing /home/achal/roomba_ws/src/roomba_walker/src/main.cpp
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:35:  Weird number of spaces at line-start.  Are you using a 2-space indent?  [whitespace/indent] [3]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:35:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:40:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:40:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:47:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:47:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:59:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:59:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:62:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+/home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp:66:  Redundant blank line at the start of a code block should be deleted.  [whitespace/blank_line] [2]
+Done processing /home/achal/roomba_ws/src/roomba_walker/src/roomba_walker.cpp
+Total errors found: 11
+

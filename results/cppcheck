@@ -1,0 +1,8 @@
+achal@Achal:~/roomba_ws$  cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" )
+(information) Couldn't find path given by -I 'include/'
+Checking src/roomba_walker/src/main.cpp...
+1/2 files checked 41% done
+Checking src/roomba_walker/src/roomba_walker.cpp...
+2/2 files checked 100% done
+(information) Cppcheck cannot find all the include files (use --check-config for details)
+
