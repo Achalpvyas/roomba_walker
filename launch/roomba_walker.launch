@@ -1,0 +1,16 @@
+<launch>
+	
+  <arg
+    	name = "enableRosBag" 
+        default = "false"
+  />
+  <include file="$(find turtlebot_gazebo)/launch/turtlebot_world.launch">
+    
+  </include>
+	<node pkg="roomba_walker" name="walker" type="walker" output="screen"/>
+        <node pkg="rosbag" name="recorder_bag" type="record" args="--all --output-name=$(find roomba_walker)/results/recording.bag -x /camera/(.*)" if="$(arg enableRosBag)"/>
+
+</launch>
+
+
+	
